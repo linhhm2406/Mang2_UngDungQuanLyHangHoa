@@ -1,0 +1,57 @@
+table{
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 300px;
+}
+td{
+    border: 1px black solid;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+input[name='delete_button'] {
+    border-color: red;
+    background-color: white;
+    color: black;
+    text-decoration: white underline;
+}
+input[name='delete_button']:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-decoration: white underline;
+}
+input[name='repair_button'] {
+    background-color: white;
+    color: black;
+    border-color: blue;
+    font-style: italic;
+}
+input[name='repair_button']:hover {
+    background-color: blue;
+    color: white;
+    font-style: italic;
+}
+td[name='action']{
+    width: 130px;
+}
+td[name='product_name']{
+    width: 120px;
+}
+
+button {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#product_information{
+    height: 20px;
+    width: 250px;
+}
+input[value="Add"]{
+    height: 25px;
+}
+input[value="Add"]:hover{
+    background-color: grey;
+    color: white;
+}
